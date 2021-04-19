@@ -11,6 +11,7 @@ import main4 from '../assets/images/main-4.jpg';
 const Main = () => {
   return (
     <Container>
+      
       <div className="main">
         <figure class="main__item main__item--1">
           <Link to="/vijest-1">
@@ -23,7 +24,7 @@ const Main = () => {
         </figure>
 
         <figure class="main__item main__item--2">
-          <Link>
+          <Link to="vijest-2">
             <img src={main2} alt="Vijest-2" className="main__img" />
             <div className="main__item-text">
               <h1> TEST TEST TEST TEST TEST TEST TEST TEST </h1>
@@ -33,7 +34,7 @@ const Main = () => {
         </figure>
 
         <figure class="main__item main__item--3">
-          <Link>
+          <Link to="vijest-3">
             <img src={main3} alt="Vijest-3" className="main__img" />
             <div className="main__item-text">
               <h1> TEST TEST TEST TEST TEST TEST TEST TEST </h1>
@@ -43,7 +44,7 @@ const Main = () => {
         </figure>
 
         <figure class="main__item main__item--4">
-          <Link>
+          <Link to="vijest-4">
             <img src={main4} alt="Vijest-4" className="main__img" />
             <div className="main__item-text">
               <h1> TEST TEST TEST TEST TEST TEST TEST TEST </h1>
@@ -52,6 +53,7 @@ const Main = () => {
           </Link>
         </figure>
       </div>
+
     </Container>
   );
 };

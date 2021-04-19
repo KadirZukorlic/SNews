@@ -5,7 +5,8 @@ const Navigation = () => {
   return (
     <>
     <div className="navigation">
-      </div>
+
+    </div>
     </>
   );
 };
