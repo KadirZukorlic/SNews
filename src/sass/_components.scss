@@ -89,3 +89,15 @@
     transform: scale(1.2);
   }
 }
+
+
+// SECTION SECONDARY
+
+.secondary {
+
+  &__left {
+    background-color: palevioletred;
+    width: 66.7%;
+    height: 50rem; //TEST
+  }
+}
