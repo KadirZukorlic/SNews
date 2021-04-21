@@ -11,7 +11,6 @@ import main4 from '../assets/images/main-4.jpg';
 const Main = () => {
   return (
     <Container>
-      
       <div className="main">
         <figure class="main__item main__item--1">
           <Link to="/vijest-1">
@@ -53,8 +52,8 @@ const Main = () => {
           </Link>
         </figure>
       </div>
-
     </Container>
+    
   );
 };
 export default Main;
