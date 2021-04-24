@@ -99,5 +99,10 @@
     background-color: palevioletred;
     width: 66.7%;
     height: 50rem; //TEST
+
+    &-img--1 {
+      width: 40%;
+      height: auto;
+    }
   }
 }
