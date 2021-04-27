@@ -100,8 +100,20 @@
     width: 66.7%;
     height: 50rem; //TEST
 
+    &-big {
+      display: table;
+      margin: 0;
+
+      &--description {
+        display: table-caption;
+        caption-side: bottom;
+        background: pink;
+        padding: 10px;
+      }
+    }
+
     &-img--1 {
-      width: 40%;
+      width: 100%;
       height: auto;
     }
   }
