@@ -117,26 +117,12 @@
       width: 60%;
       height: auto;
     }
-  }
 
-  &__right {
+    &__small {
 
-      display: table;
-      margin: 0;
-
-      &-description {
-        display: table-caption;
-        caption-side: bottom;
-        background: pink;
-        padding: 1rem;
-        width: 60%;
-      }
-
-    &-img {
-      width: 60%;
-      height: auto;
+      width: 33.6%;
+      background-color: lightblue;
+      float: right;
     }
   }
-
-
 }

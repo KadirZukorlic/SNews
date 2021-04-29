@@ -12,7 +12,7 @@ const Main = () => {
   return (
     <Container>
       <div className="main">
-        <figure class="main__item main__item--1">
+        <figure className="main__item main__item--1">
           <Link to="/vijest-1">
             <img src={main1} alt="Vijest-1" className="main__img" />
             <div className="main__item-text">
@@ -22,7 +22,7 @@ const Main = () => {
           </Link>
         </figure>
 
-        <figure class="main__item main__item--2">
+        <figure className="main__item main__item--2">
           <Link to="vijest-2">
             <img src={main2} alt="Vijest-2" className="main__img" />
             <div className="main__item-text">
@@ -32,7 +32,7 @@ const Main = () => {
           </Link>
         </figure>
 
-        <figure class="main__item main__item--3">
+        <figure className="main__item main__item--3">
           <Link to="vijest-3">
             <img src={main3} alt="Vijest-3" className="main__img" />
             <div className="main__item-text">
@@ -42,7 +42,7 @@ const Main = () => {
           </Link>
         </figure>
 
-        <figure class="main__item main__item--4">
+        <figure className="main__item main__item--4">
           <Link to="vijest-4">
             <img src={main4} alt="Vijest-4" className="main__img" />
             <div className="main__item-text">

@@ -38,12 +38,12 @@ const Secondary = () => {
           </div>
         </div>
 
-        <div className="secondary__right">
-          <img
+        <div className="secondary__left-small">
+          {/* <img
             src={SecondaryRight1}
             alt="sandzak vijesti"
             className="secondary__right-img"
-          />
+          /> */}
           <div className="secondary__right-description">
             <h3>TEST TEST TEST TEST TEST .. TEST TEST...</h3>
             <p>29. April 2021</p>
