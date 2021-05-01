@@ -28,7 +28,7 @@ const Secondary = () => {
             <img
               src={SecondaryLeft1}
               alt="sandzak vijesti"
-              className="secondary__left-img--1"
+              className="secondary__left-big--img"
             />
             <div className="secondary__left-big--description">
               <h3>TEST TEST TEST TEST TEST TEST TEST</h3>
@@ -39,16 +39,17 @@ const Secondary = () => {
         </div>
 
         <div className="secondary__left-small">
-          {/* <img
+          <img
             src={SecondaryRight1}
             alt="sandzak vijesti"
-            className="secondary__right-img"
-          /> */}
-          <div className="secondary__right-description">
+            className="secondary__left-small--img"
+          />
+          <div className="secondary__left-small--description">
             <h3>TEST TEST TEST TEST TEST .. TEST TEST...</h3>
             <p>29. April 2021</p>
           </div>
         </div>
+
       </section>
     </Container>
   );

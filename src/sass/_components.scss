@@ -94,6 +94,7 @@
 // SECTION SECONDARY
 
 .secondary {
+  display: flex;
 
   &__left {
     background-color: palevioletred;
@@ -111,18 +112,22 @@
         padding: 1rem;
         width: 60%;
       }
+      &--img {
+        width: 60%;
+        height: auto;
+      }
     }
 
-    &-img--1 {
-      width: 60%;
-      height: auto;
-    }
+ 
 
-    &__small {
+    &-small {
+      width: 33.7%;
+      background-color: lightgreen;
 
-      width: 33.6%;
-      background-color: lightblue;
-      float: right;
+      &--img {
+        width: 40%;
+        height: auto;
+      }
     }
   }
 }
