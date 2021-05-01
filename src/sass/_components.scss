@@ -94,12 +94,13 @@
 // SECTION SECONDARY
 
 .secondary {
-  display: flex;
+  overflow: hidden;
 
   &__left {
     background-color: palevioletred;
     width: 66.7%;
-    height: 50rem; //TEST
+    height: 70rem;
+
 
     &-big {
       display: table;
@@ -118,14 +119,12 @@
       }
     }
 
- 
 
     &-small {
-      width: 33.7%;
       background-color: lightgreen;
 
       &--img {
-        width: 40%;
+        width: 30%;
         height: auto;
       }
     }

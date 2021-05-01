@@ -12,18 +12,10 @@ const Secondary = () => {
   return (
     <Container>
       <section className="secondary">
+        <h3 style={{borderBottom: '2px solid #54483A', textAlign: 'center', fontWeight: '700', padding: '1.5px 3px 3px', backgroundColor: '#1888ff', width: '66.7%', }}>
+          NAJNOVIJE
+        </h3>
         <div className="secondary__left">
-          <h3
-            style={{
-              borderBottom: '2px solid #54483A',
-              textAlign: 'center',
-              fontWeight: '700',
-              padding: '1.5px 3px 3px',
-              backgroundColor: '#1888ff',
-            }}
-          >
-            NAJNOVIJE
-          </h3>
           <div className="secondary__left-big">
             <img
               src={SecondaryLeft1}
@@ -36,20 +28,19 @@ const Secondary = () => {
               <p>short description</p>
             </div>
           </div>
-        </div>
 
-        <div className="secondary__left-small">
-          <img
-            src={SecondaryRight1}
-            alt="sandzak vijesti"
-            className="secondary__left-small--img"
-          />
-          <div className="secondary__left-small--description">
-            <h3>TEST TEST TEST TEST TEST .. TEST TEST...</h3>
-            <p>29. April 2021</p>
+          <div className="secondary__left-small">
+            <img
+              src={SecondaryRight1}
+              alt="sandzak vijesti"
+              className="secondary__left-small--img"
+            />
+            <div className="secondary__left-small--description">
+              <h3>TEST TEST TEST TEST TEST .. TEST TEST...</h3>
+              <p>29. April 2021</p>
+            </div>
           </div>
         </div>
-
       </section>
     </Container>
   );
