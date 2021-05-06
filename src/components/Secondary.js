@@ -40,9 +40,11 @@ const Secondary = () => {
               alt="sandzak vijesti"
               className="secondary__right-img"
             />
+            <div style={{display: 'block'}}>
             <h3>TEST TEST TEST TEST TEST .. TEST TEST...</h3>
-          </div>
             <p>29. April 2021</p>
+            </div>
+          </div>
         </div>
       </div>
     </Container>
