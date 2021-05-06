@@ -32,20 +32,19 @@
 //////////////////// MAIN
 
 .main {
-
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 16vw);
   grid-gap: 0.5rem;
 
   margin-top: 2rem;
-  
+
   &__item {
     overflow: hidden;
 
     &--1 {
       grid-column: 1 / span 2;
-      grid-row: 1 / -1;  
+      grid-row: 1 / -1;
     }
 
     &-text {
@@ -77,12 +76,11 @@
     }
   }
 
-  
   &__img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: .3s ease-in-out;
+    transition: 0.3s ease-in-out;
   }
 
   &__img:hover {
@@ -90,43 +88,44 @@
   }
 }
 
-
 // SECTION SECONDARY
 
 .secondary {
-  overflow: hidden;
+  display: flex;
+  flex-flow: row;
+  width: 66.7%;
+  background-color: aqua;
+  height: 50rem;
 
   &__left {
-    background-color: palevioletred;
-    width: 66.7%;
-    height: 70rem;
+    width: 60%;
+    background-color: orange;
+    margin: 2rem 2rem;
 
-
-    &-big {
-      display: table;
-      margin: 0;
-
-      &--description {
-        display: table-caption;
-        caption-side: bottom;
-        background: pink;
-        padding: 1rem;
-        width: 60%;
-      }
-      &--img {
-        width: 60%;
-        height: auto;
-      }
+    &-img {
+      width: 100%;
+      height: auto;
+      // object-fit: cover;
     }
+  }
 
+  &__right {
+    width: 40%;
+    height: auto;
+    padding: 0;
+    margin-top: 2rem;
 
-    &-small {
-      background-color: lightgreen;
-
-      &--img {
-        width: 30%;
-        height: auto;
+    &-content {  
+        display: flex;
       }
+
+    &-img {
+      margin: 0 auto;
+      padding: 0;
+      width: 10rem;
+      height: 7rem;
+      object-fit: cover;
     }
   }
 }
+

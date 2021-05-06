@@ -11,37 +11,40 @@ const Secondary = () => {
 
   return (
     <Container>
-      <section className="secondary">
-        <h3 style={{borderBottom: '2px solid #54483A', textAlign: 'center', fontWeight: '700', padding: '1.5px 3px 3px', backgroundColor: '#1888ff', width: '66.7%', }}>
-          NAJNOVIJE
-        </h3>
+      <h3
+        style={{
+          borderBottom: '2px solid #54483A',
+          textAlign: 'center',
+          fontWeight: '700',
+          padding: '1.5px 3px 3px',
+          backgroundColor: '#1888ff',
+          width: '100%',
+        }}
+      >
+        NAJNOVIJE
+      </h3>
+      <div className="secondary">
         <div className="secondary__left">
-          <div className="secondary__left-big">
-            <img
-              src={SecondaryLeft1}
-              alt="sandzak vijesti"
-              className="secondary__left-big--img"
-            />
-            <div className="secondary__left-big--description">
-              <h3>TEST TEST TEST TEST TEST TEST TEST</h3>
-              <p>27. April 2021</p>
-              <p>short description</p>
-            </div>
+          <div className="secondary__left-content">
+            <img src={SecondaryLeft1} alt="sandzak vijesti" className="secondary__left-img" />
+            <h3>TEST TEST TEST TEST TEST TEST TEST</h3>
+            <p>27. April 2021</p>
+            <p>short description</p>
           </div>
+        </div>
 
-          <div className="secondary__left-small">
+        <div className="secondary__right">
+          <div className="secondary__right-content">
             <img
               src={SecondaryRight1}
               alt="sandzak vijesti"
-              className="secondary__left-small--img"
+              className="secondary__right-img"
             />
-            <div className="secondary__left-small--description">
-              <h3>TEST TEST TEST TEST TEST .. TEST TEST...</h3>
-              <p>29. April 2021</p>
-            </div>
+            <h3>TEST TEST TEST TEST TEST .. TEST TEST...</h3>
           </div>
+            <p>29. April 2021</p>
         </div>
-      </section>
+      </div>
     </Container>
   );
 };
