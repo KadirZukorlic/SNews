@@ -27,13 +27,14 @@ const Secondary = () => {
         <div className="secondary__left">
           <div className="secondary__left-content">
             <img src={SecondaryLeft1} alt="sandzak vijesti" className="secondary__left-img" />
-            <h3>TEST TEST TEST TEST TEST TEST TEST</h3>
+            <h1>TEST TEST TEST TEST TEST TEST TEST</h1>
             <p>27. April 2021</p>
             <p>short description</p>
           </div>
         </div>
 
         <div className="secondary__right">
+
           <div className="secondary__right-content">
             <img
               src={SecondaryRight1}
@@ -41,10 +42,59 @@ const Secondary = () => {
               className="secondary__right-img"
             />
             <div style={{display: 'block'}}>
-            <h3>TEST TEST TEST TEST TEST .. TEST TEST...</h3>
+            <h3> <b>TEST TEST TEST TEST TEST .. TEST TEST...</b></h3>
             <p>29. April 2021</p>
             </div>
           </div>
+
+          <div className="secondary__right-content">
+            <img
+              src={SecondaryRight1}
+              alt="sandzak vijesti"
+              className="secondary__right-img"
+            />
+            <div style={{display: 'block'}}>
+            <h3> <b>TEST TEST TEST TEST TEST .. TEST TEST...</b></h3>
+            <p>29. April 2021</p>
+            </div>
+          </div>
+
+          <div className="secondary__right-content">
+            <img
+              src={SecondaryRight1}
+              alt="sandzak vijesti"
+              className="secondary__right-img"
+            />
+            <div style={{display: 'block'}}>
+            <h3> <b>TEST TEST TEST TEST TEST .. TEST TEST...</b></h3>
+            <p>29. April 2021</p>
+            </div>
+          </div>
+
+          <div className="secondary__right-content">
+            <img
+              src={SecondaryRight1}
+              alt="sandzak vijesti"
+              className="secondary__right-img"
+            />
+            <div style={{display: 'block'}}>
+            <h3> <b>TEST TEST TEST TEST TEST .. TEST TEST...</b></h3>
+            <p>29. April 2021</p>
+            </div>
+          </div>
+
+          <div className="secondary__right-content">
+            <img
+              src={SecondaryRight1}
+              alt="sandzak vijesti"
+              className="secondary__right-img"
+            />
+            <div style={{display: 'block'}}>
+            <h3> <b>TEST TEST TEST TEST TEST .. TEST TEST...</b></h3>
+            <p>29. April 2021</p>
+            </div>
+          </div>
+
         </div>
       </div>
     </Container>
