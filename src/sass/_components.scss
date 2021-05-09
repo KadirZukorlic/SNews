@@ -93,13 +93,11 @@
 .secondary {
   display: flex;
   flex-flow: row;
-  width: 66.7%;
-  background-color: aqua;
+  width: 100%;
   height: 50rem;
 
   &__left {
-    width: 60%;
-    background-color: orange;
+    width: 35%;
     margin: 2rem 2rem;
 
     &-img {
@@ -118,10 +116,10 @@
     height: auto;
     padding: 0;
 
-    &-content {  
-        display: flex;
-        margin-top: 2rem;
-      }
+    &-content {
+      display: flex;
+      margin-top: 2rem;
+    }
 
     &-img {
       margin-right: 1rem;
@@ -131,5 +129,11 @@
       object-fit: cover;
     }
   }
-}
 
+  &__popular {
+    &-content {
+      display: flex;
+      margin-top: 2rem;
+    }
+  }
+}

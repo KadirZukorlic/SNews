@@ -94,9 +94,75 @@ const Secondary = () => {
             <p>29. April 2021</p>
             </div>
           </div>
+        </div>
+
+        <div className="secondary__popular">
+
+          <div className="secondary__popular-content">
+            <img
+              src={SecondaryRight1}
+              alt="sandzak vijesti"
+              className="secondary__right-img"
+            />
+            <div style={{display: 'block'}}>
+              <h3> <b>TEST TEST TEST TEST TEST .. TEST TEST...</b></h3>
+              <p>29. April 2021</p>
+            </div>
+          </div>  
+
+          <div className="secondary__popular-content">
+            <img
+              src={SecondaryRight1}
+              alt="sandzak vijesti"
+              className="secondary__right-img"
+            />
+            <div style={{display: 'block'}}>
+              <h3> <b>TEST TEST TEST TEST TEST .. TEST TEST...</b></h3>
+              <p>29. April 2021</p>
+            </div>
+          </div>  
+
+          <div className="secondary__popular-content">
+            <img
+              src={SecondaryRight1}
+              alt="sandzak vijesti"
+              className="secondary__right-img"
+            />
+            <div style={{display: 'block'}}>
+              <h3> <b>TEST TEST TEST TEST TEST .. TEST TEST...</b></h3>
+              <p>29. April 2021</p>
+            </div>
+          </div>  
+
+          <div className="secondary__popular-content">
+            <img
+              src={SecondaryRight1}
+              alt="sandzak vijesti"
+              className="secondary__right-img"
+            />
+            <div style={{display: 'block'}}>
+              <h3> <b>TEST TEST TEST TEST TEST .. TEST TEST...</b></h3>
+              <p>29. April 2021</p>
+            </div>
+          </div>  
+
+          <div className="secondary__popular-content">
+            <img
+              src={SecondaryRight1}
+              alt="sandzak vijesti"
+              className="secondary__right-img"
+            />
+            <div style={{display: 'block'}}>
+              <h3> <b>TEST TEST TEST TEST TEST .. TEST TEST...</b></h3>
+              <p>29. April 2021</p>
+            </div>
+          </div>  
+
 
         </div>
       </div>
+
+        
     </Container>
   );
 };
