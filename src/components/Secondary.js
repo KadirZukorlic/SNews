@@ -9,6 +9,15 @@ const Secondary = () => {
   // const currentState = state[0];
   // const setStaste = state[1]; //function to update the state
 
+  const glavnaVijest = {
+      title: 'Ovo je nova vijest',
+      date: new Date(2021, 5, 9),
+      text: 'text vijesti ide ovde ...'
+    };
+
+    const date = glavnaVijest.date.toLocaleString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+
+
   return (
     <Container>
       <h3
@@ -26,15 +35,18 @@ const Secondary = () => {
       <div className="secondary">
         <div className="secondary__left">
           <div className="secondary__left-content">
-            <img src={SecondaryLeft1} alt="sandzak vijesti" className="secondary__left-img" />
-            <h1>TEST TEST TEST TEST TEST TEST TEST</h1>
-            <p>27. April 2021</p>
-            <p>short description</p>
+            <img
+              src={SecondaryLeft1}
+              alt="sandzak vijesti"
+              className="secondary__left-img"
+            />
+            <h1>{glavnaVijest.title}</h1>
+            <div>{date}</div>
+            <div>{glavnaVijest.text}</div>
           </div>
         </div>
 
         <div className="secondary__right">
-
           <div className="secondary__right-content">
             <img
               src={SecondaryRight1}
@@ -42,8 +54,11 @@ const Secondary = () => {
               className="secondary__right-img"
             />
             <div style={{display: 'block'}}>
-            <h3> <b>TEST TEST TEST TEST TEST .. TEST TEST...</b></h3>
-            <p>29. April 2021</p>
+              <h3>
+                {' '}
+                <b>TEST TEST TEST TEST TEST .. TEST TEST...</b>
+              </h3>
+              <p>29. April 2021</p>
             </div>
           </div>
 
@@ -54,8 +69,11 @@ const Secondary = () => {
               className="secondary__right-img"
             />
             <div style={{display: 'block'}}>
-            <h3> <b>TEST TEST TEST TEST TEST .. TEST TEST...</b></h3>
-            <p>29. April 2021</p>
+              <h3>
+                {' '}
+                <b>TEST TEST TEST TEST TEST .. TEST TEST...</b>
+              </h3>
+              <p>29. April 2021</p>
             </div>
           </div>
 
@@ -66,8 +84,11 @@ const Secondary = () => {
               className="secondary__right-img"
             />
             <div style={{display: 'block'}}>
-            <h3> <b>TEST TEST TEST TEST TEST .. TEST TEST...</b></h3>
-            <p>29. April 2021</p>
+              <h3>
+                {' '}
+                <b>TEST TEST TEST TEST TEST .. TEST TEST...</b>
+              </h3>
+              <p>29. April 2021</p>
             </div>
           </div>
 
@@ -78,8 +99,11 @@ const Secondary = () => {
               className="secondary__right-img"
             />
             <div style={{display: 'block'}}>
-            <h3> <b>TEST TEST TEST TEST TEST .. TEST TEST...</b></h3>
-            <p>29. April 2021</p>
+              <h3>
+                {' '}
+                <b>TEST TEST TEST TEST TEST .. TEST TEST...</b>
+              </h3>
+              <p>29. April 2021</p>
             </div>
           </div>
 
@@ -90,13 +114,30 @@ const Secondary = () => {
               className="secondary__right-img"
             />
             <div style={{display: 'block'}}>
-            <h3> <b>TEST TEST TEST TEST TEST .. TEST TEST...</b></h3>
-            <p>29. April 2021</p>
+              <h3>
+                {' '}
+                <b>TEST TEST TEST TEST TEST .. TEST TEST...</b>
+              </h3>
+              <p>29. April 2021</p>
             </div>
           </div>
         </div>
 
         <div className="secondary__popular">
+          <div className="secondary__popular-content">
+            <img
+              src={SecondaryRight1}
+              alt="sandzak vijesti"
+              className="secondary__right-img"
+            />
+            <div style={{display: 'block'}}>
+              <h3>
+                {' '}
+                <b>TEST TEST TEST TEST TEST .. TEST TEST...</b>
+              </h3>
+              <p>29. April 2021</p>
+            </div>
+          </div>
 
           <div className="secondary__popular-content">
             <img
@@ -105,10 +146,13 @@ const Secondary = () => {
               className="secondary__right-img"
             />
             <div style={{display: 'block'}}>
-              <h3> <b>TEST TEST TEST TEST TEST .. TEST TEST...</b></h3>
+              <h3>
+                {' '}
+                <b>TEST TEST TEST TEST TEST .. TEST TEST...</b>
+              </h3>
               <p>29. April 2021</p>
             </div>
-          </div>  
+          </div>
 
           <div className="secondary__popular-content">
             <img
@@ -117,10 +161,13 @@ const Secondary = () => {
               className="secondary__right-img"
             />
             <div style={{display: 'block'}}>
-              <h3> <b>TEST TEST TEST TEST TEST .. TEST TEST...</b></h3>
+              <h3>
+                {' '}
+                <b>TEST TEST TEST TEST TEST .. TEST TEST...</b>
+              </h3>
               <p>29. April 2021</p>
             </div>
-          </div>  
+          </div>
 
           <div className="secondary__popular-content">
             <img
@@ -129,10 +176,13 @@ const Secondary = () => {
               className="secondary__right-img"
             />
             <div style={{display: 'block'}}>
-              <h3> <b>TEST TEST TEST TEST TEST .. TEST TEST...</b></h3>
+              <h3>
+                {' '}
+                <b>TEST TEST TEST TEST TEST .. TEST TEST...</b>
+              </h3>
               <p>29. April 2021</p>
             </div>
-          </div>  
+          </div>
 
           <div className="secondary__popular-content">
             <img
@@ -141,28 +191,15 @@ const Secondary = () => {
               className="secondary__right-img"
             />
             <div style={{display: 'block'}}>
-              <h3> <b>TEST TEST TEST TEST TEST .. TEST TEST...</b></h3>
+              <h3>
+                {' '}
+                <b>TEST TEST TEST TEST TEST .. TEST TEST...</b>
+              </h3>
               <p>29. April 2021</p>
             </div>
-          </div>  
-
-          <div className="secondary__popular-content">
-            <img
-              src={SecondaryRight1}
-              alt="sandzak vijesti"
-              className="secondary__right-img"
-            />
-            <div style={{display: 'block'}}>
-              <h3> <b>TEST TEST TEST TEST TEST .. TEST TEST...</b></h3>
-              <p>29. April 2021</p>
-            </div>
-          </div>  
-
-
+          </div>
         </div>
       </div>
-
-        
     </Container>
   );
 };

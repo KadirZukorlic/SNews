@@ -10,6 +10,7 @@ import Secondary from './components/Secondary';
 import './sass/main.scss';
 
 function App() {
+
   return (
     <BrowserRouter>
       <Navbar />
