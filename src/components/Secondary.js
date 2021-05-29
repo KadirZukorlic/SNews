@@ -9,6 +9,39 @@ import SecondaryRight1 from '../assets/images/secondaryright-1.jpg';
 // CHANGE ALL THE IMAGES WITH URL ON (COPY IMAGE ADRESS) in the web, INSTEAD UPLOADING THEM
 // MAKE SECONDARY VIJEST COMPONENT and PASS DIFERENT NEWS THROUGH PROPS FOR EACH VIJEST IN A COMPONENT
 
+const news = [
+  {
+    title: 'TEST TEST TEST TEST TEST .. TEST TEST...',
+    date: '29. April 2021',
+    image: '',
+    info: '',
+  },
+  {
+    title: 'TEST TEST TEST TEST TEST .. TEST TEST...',
+    date: '29. April 2021',
+    image: '',
+    info: '',
+  },
+  {
+    title: 'TEST TEST TEST TEST TEST .. TEST TEST...',
+    date: '29. April 2021',
+    image: '',
+    info: '',
+  },
+  {
+    title: 'TEST TEST TEST TEST TEST .. TEST TEST...',
+    date: '29. April 2021',
+    image: '',
+    info: '',
+  },
+  {
+    title: 'TEST TEST TEST TEST TEST .. TEST TEST...',
+    date: '29. April 2021',
+    image: '',
+    info: '',
+  },
+];
+
 const Secondary = () => {
   // const state = React.useState('')
   // const currentState = state[0];
@@ -68,7 +101,7 @@ const Secondary = () => {
         </div>
 
         <div className="secondary__right">
-          <SecondaryNews />
+          <SecondaryNews news={news} />
         </div>
 
         <div className="secondary__popular">
