@@ -2,31 +2,34 @@ export const secondaryNewsData = [
   {
     title: 'TEST TEST TEST TEST TEST .. TEST TEST...',
     date: '29. April 2021',
-    image: '',
+    image:
+      'https://media-cdn.tripadvisor.com/media/photo-s/09/f1/84/d0/getlstd-property-photo.jpg',
     info: '',
   },
   {
     title: 'TEST TEST TEST TEST TEST .. TEST TEST...',
     date: '29. April 2021',
-    image: '',
+    image: 'https://static.dw.com/image/19566112_303.jpg',
     info: '',
   },
   {
     title: 'TEST TEST TEST TEST TEST .. TEST TEST...',
     date: '29. April 2021',
-    image: '',
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Bosanski_pa%C5%A1aluk_1600._godine.png/540px-Bosanski_pa%C5%A1aluk_1600._godine.png',
     info: '',
   },
   {
     title: 'TEST TEST TEST TEST TEST .. TEST TEST...',
     date: '29. April 2021',
-    image: '',
+    image:
+      'https://i2.wp.com/www.snews.rs/wp-content/uploads/2021/04/b1-1.jpg?resize=800%2C483&ssl=1',
     info: '',
   },
   {
     title: 'TEST TEST TEST TEST TEST .. TEST TEST...',
     date: '29. April 2021',
-    image: '',
+    image: 'https://sanapress.info/wp-content/uploads/2020/05/stv.jpg',
     info: '',
   },
 ];

@@ -1,17 +1,16 @@
 import React from 'react';
 
-import SecondaryRight1 from '../assets/images/secondaryright-1.jpg';
 
 const SecondaryNews = ({ news }) => {
   console.log(news);
   return (
     <>
       {news.map((news, index) => {
-        const { title, date } = news;
+        const { title, date, image } = news;
         return (
           <div className="secondary__right-content" key={index}>
             <img
-              src={SecondaryRight1}
+              src={image}
               alt="sandzak vijesti"
               className="secondary__right-img"
             />

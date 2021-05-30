@@ -18,9 +18,7 @@ const SecondaryIslamic = ({ islamicData }) => {
               className="secondary__right-img"
             />
             <div style={{ display: 'block' }}>
-              <h3>
-                <b>{title}</b>
-              </h3>
+              <h3>{title}</h3>
               <p>{date}</p>
             </div>
           </div>
