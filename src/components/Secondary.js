@@ -5,7 +5,7 @@ import SecondaryNews from './SecondaryNews';
 import { secondaryNewsData, islamicData } from './NewsData';
 
 import SecondaryLeft1 from '../assets/images/secondaryleft-1.jpg';
-import SecondaryRight1 from '../assets/images/secondaryright-1.jpg';
+
 import SecondaryIslamic from './SecondaryIslamic';
 
 // CHANGE ALL THE IMAGES WITH URL ON (COPY IMAGE ADRESS) in the web, INSTEAD UPLOADING THEM
